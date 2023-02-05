@@ -307,20 +307,20 @@ html {
     100%{width: 95%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .python{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s python forwards;
 }
-@keyframes wordpress {
+@keyframes python {
     0%{width: 0%;}
     100%{width: 81%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .java{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s java forwards;
 }
-@keyframes drupal {
+@keyframes java {
     0%{width: 0%;}
     100%{width: 55%;}
 }
