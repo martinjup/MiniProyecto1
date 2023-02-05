@@ -1,6 +1,6 @@
 let menuVisible = false;
 //Efectos para el menu
-function mostrarOcultarMenu(){
+function showHideMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
         menuVisible = false;
@@ -10,7 +10,7 @@ function mostrarOcultarMenu(){
     }
 }
 
-function seleccionar(){
+function select(){
     //Hide menu una vez que selecciona una opcion
     document.getElementById("nav").classList = "";
     menuVisible = false;
