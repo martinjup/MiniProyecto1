@@ -548,3 +548,62 @@ footer .up{
     line-height: 50px;
     font-size: 18px;
 }
+/* SECCION RESPONSIVE */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:700px){
+    .aboutme .row{
+        display: block;
+    }
+    .aboutme .row .col{
+        width: fit-content;
+    }
+
+    .skills .row{
+        display: block;
+    }
+    .skills .row .col{
+        width: 100%;
+    }
+    .skills .row .col .bar-skill{
+        width: 100%;
+    }
+
+    .experience .gallery{
+        display: block;
+        width: 100%;
+    }
+    .experience .gallery .proyect{
+        max-width: 100%;
+    }
+    .experience .gallery .proyect img{
+        width: 100%;
+    }
+    .contactme .row{
+        display: block;
+    }
+    .contactme .row .col{
+        width: 100%;
+    }
+}
